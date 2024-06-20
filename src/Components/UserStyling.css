@@ -14,7 +14,7 @@
 
  input[type="text"], [type="email"], [type="number"]{
     width: 100%;
-    max-width: 350px;
+    max-width: 90%;
     padding: 20px;
     border: none;
     outline: none;
@@ -28,7 +28,7 @@
     outline: none;
     border-radius: 5px;
     background: #000000;
-    color: bisque;
+    color: #fff;
 }
 
 /* User List Page */
