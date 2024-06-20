@@ -23,10 +23,8 @@ const UserController = () => {
     }
 
     const handleDeleteUser = (id) =>{
-      const updatedUsers= setUsers(users.filter((user) => user.id !== id ));
-        setUsers(updatedUsers);
-        localStorage.setItem('users', JSON.stringify(updatedUsers));
-        onDelete(id);
+     setUsers(users.filter((user) => user.id !== id ));
+    
     }
   return (
     <div>

@@ -36,7 +36,6 @@
     width: 80%;
     margin: auto;
     /* background: #a7afaf; */
-    padding: 20px;
 }
 
 .table{
@@ -47,11 +46,11 @@
 
 thead th{
     padding: 10px 10px;
-    background: #056168;
+    background: #06929c;
 }
 
 tbody{
-    background-color: aquamarine;
+    background-color: rgb(194, 211, 205);
 }
 
 tbody td{
