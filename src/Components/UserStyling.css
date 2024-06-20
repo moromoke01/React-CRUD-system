@@ -1,0 +1,78 @@
+.userForm{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #056168;
+    border-radius: 10px;
+}
+
+.form-input{
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+ input[type="text"], [type="email"], [type="number"]{
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: black;
+}
+
+.submit{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #000000;
+    color: bisque;
+}
+
+/* User List Page */
+.userList-page{
+    width: 80%;
+    margin: auto;
+    /* background: #a7afaf; */
+    padding: 20px;
+}
+
+.table{
+    width: 100%;
+    border: 2px solid #2c2c2c;
+    /* padding: 10px; */
+}
+
+thead th{
+    padding: 10px 10px;
+    background: #056168;
+}
+
+tbody{
+    background-color: aquamarine;
+}
+
+tbody td{
+    padding: 10px;
+}
+.btn-flex{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.edit-btn{
+    padding: 10px 20px;
+    border:none;
+    border-radius:5px ;
+    background: rgb(13, 109, 64);
+}
+
+.del-btn{
+    padding: 10px ;
+    border:none;
+    border-radius:5px ;
+    background: rgb(155, 8, 8);
+    color: azure;
+}
